@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boston — Família Guerra | Formatura Sophia</title>
+<meta name="description" content="Roteiro para família e amigos: Boston, formatura na Bentley (16 de abril), dicas de transporte, restaurantes favoritos e lista de lugares no mapa.">
+<meta name="theme-color" content="#1a3a6b">
+<meta property="og:title" content="Boston — Família Guerra | Formatura Sophia">
+<meta property="og:description" content="Roteiro de viagem, dia da formatura na Bentley, restaurantes e dicas práticas para quem vem celebrar com a Sophia em Massachusetts.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Boston — Família Guerra | Formatura Sophia">
+<meta name="twitter:description" content="Roteiro de viagem, formatura na Bentley e dicas para a visita em abril.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;1,300;1,600&family=Figtree:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --accent: #1a3a6b;
+    --accent-light: #e6edf8;
+    --accent-mid: #b8cce8;
+    --white: #ffffff;
+    --off: #f4f6f9;
+    --ink: #0d1b2a;
+    --soft: #4a5568;
+    --border: #d0d9e4;
+    --stone: #e8edf3;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--off);color:var(--ink);font-family:'Figtree',sans-serif;font-weight:300;}
+
+  .site-header{background:var(--accent);padding:52px 44px 44px;position:relative;overflow:hidden;}
+  .site-header::before{content:'';position:absolute;top:-80px;right:-80px;width:320px;height:320px;border:1px solid rgba(255,255,255,0.1);border-radius:50%;}
+  .site-header::after{content:'';position:absolute;bottom:-50px;left:60px;width:200px;height:200px;border:1px solid rgba(255,255,255,0.07);border-radius:50%;}
+  .h-kicker{font-size:10px;letter-spacing:4px;text-transform:uppercase;font-weight:500;color:rgba(255,255,255,0.5);margin-bottom:14px;}
+  .h-title{font-family:'Fraunces',serif;font-size:clamp(50px,9vw,84px);font-weight:600;color:white;line-height:0.9;margin-bottom:10px;position:relative;z-index:1;}
+  .h-sub{font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:clamp(15px,2.8vw,20px);color:rgba(255,255,255,0.65);margin-bottom:20px;}
+  .h-tag{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.2);padding:6px 16px;font-size:11px;letter-spacing:1.5px;color:rgba(255,255,255,0.75);}
+  .h-maps-link{display:inline-flex;align-items:center;gap:6px;margin-top:14px;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.3);padding:7px 16px;font-size:12px;font-weight:500;color:white;text-decoration:none;transition:background 0.2s;}
+  .h-maps-link:hover{background:rgba(255,255,255,0.28);}
+
+  .site-nav{background:var(--ink);display:flex;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid rgba(255,255,255,0.06);}
+  .site-nav::-webkit-scrollbar{display:none;}
+  .nav-btn{background:none;border:none;border-bottom:2px solid transparent;padding:15px 18px;color:rgba(255,255,255,0.35);font-family:'Figtree',sans-serif;font-size:11px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:all 0.18s;white-space:nowrap;flex-shrink:0;}
+  .nav-btn:hover{color:rgba(255,255,255,0.65);}
+  .nav-btn.active{color:#8ab4e8;border-bottom-color:#8ab4e8;}
+
+  .main{max-width:860px;margin:0 auto;padding:44px 20px 80px;}
+  .panel{display:none;}
+  .panel.active{display:block;}
+
+  .panel-kicker{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:8px;}
+  .panel-title{font-family:'Fraunces',serif;font-size:clamp(24px,5vw,34px);font-weight:600;color:var(--ink);line-height:1.1;margin-bottom:6px;}
+  .panel-subtitle{font-size:14px;color:var(--soft);font-family:'Fraunces',serif;font-style:italic;font-weight:300;margin-bottom:28px;}
+
+  .region{margin-bottom:40px;}
+  .region-header{display:flex;align-items:center;gap:14px;margin-bottom:16px;}
+  .region-dot{width:10px;height:10px;border-radius:50%;background:var(--accent);flex-shrink:0;}
+  .region-name{font-family:'Fraunces',serif;font-size:20px;font-weight:600;color:var(--ink);}
+  .region-dist{font-size:11px;color:var(--soft);letter-spacing:1px;margin-top:2px;}
+  .region-divider{flex:1;height:1px;background:var(--border);}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px;}
+  .card{background:var(--white);border:1px solid var(--border);padding:18px 20px;cursor:pointer;transition:border-color 0.15s;}
+  .card:hover{border-color:var(--accent);}
+  .card.sophia-fav{border-left:3px solid var(--accent);}
+  .card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;}
+  .card-name{font-family:'Fraunces',serif;font-size:16px;font-weight:600;color:var(--ink);line-height:1.2;}
+  .card-toggle{width:22px;height:22px;min-width:22px;border-radius:50%;border:1px solid var(--border);background:var(--stone);color:var(--soft);font-size:16px;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all 0.18s;cursor:pointer;margin-top:2px;}
+  .card.open .card-toggle{background:var(--accent);color:white;border-color:var(--accent);}
+  .card-sub{font-size:12px;color:var(--soft);margin-top:4px;line-height:1.4;}
+  .card-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px;}
+  .tag{font-size:9px;letter-spacing:1px;text-transform:uppercase;font-weight:500;padding:2px 8px;border-radius:1px;}
+  .t-free{background:#e6f4f1;color:#1d6b5a;}
+  .t-price{background:#fdf0ed;color:#a04030;}
+  .t-sophia{background:var(--accent-light);color:var(--accent);}
+  .t-kids{background:#edf2ec;color:#3a5c33;}
+  .t-photo{background:#eef2fb;color:#2d4a8a;}
+  .t-neutral{background:var(--stone);color:var(--soft);}
+  .card-extra{display:none;margin-top:12px;padding-top:12px;border-top:1px solid var(--stone);font-size:13px;color:var(--soft);line-height:1.7;}
+  .card.open .card-extra{display:block;}
+  .rest-quote{margin-top:10px;padding:9px 13px;background:var(--accent-light);border-left:2px solid var(--accent);font-style:italic;font-size:12px;color:var(--accent);}
+
+  .before-intro{background:var(--accent);color:white;padding:28px 32px;margin-bottom:24px;}
+  .before-intro-title{font-family:'Fraunces',serif;font-size:18px;font-weight:600;margin-bottom:16px;}
+  .app-list{display:flex;flex-direction:column;gap:12px;}
+  .app-row{display:flex;gap:12px;align-items:flex-start;}
+  .app-chip{background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.28);padding:3px 10px;font-size:9px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;color:white;flex-shrink:0;margin-top:2px;}
+  .app-text{font-size:12px;color:rgba(255,255,255,0.7);line-height:1.55;}
+  .app-text a{color:rgba(255,255,255,0.9);}
+
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);}
+  @media(max-width:540px){.two-col{grid-template-columns:1fr;}}
+  .col-block{background:var(--white);padding:18px 20px;}
+  .col-title{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:10px;}
+  .col-item{font-size:12px;line-height:1.6;color:var(--soft);padding-left:10px;border-left:2px solid var(--stone);margin-bottom:6px;}
+  .col-warn{border-left-color:#c04030;color:#a03020;font-weight:500;}
+  .col-link{color:var(--accent);text-decoration:underline;}
+
+  .grad-banner{background:var(--accent);padding:22px 28px;margin-bottom:24px;}
+  .grad-title{font-family:'Fraunces',serif;font-size:22px;font-weight:600;color:white;margin-bottom:4px;}
+  .grad-sub{font-size:13px;color:rgba(255,255,255,0.6);}
+
+  .photo-alert{background:#fdf8e6;border:1px solid #e6c84a;border-left:4px solid #c9a800;padding:14px 18px;margin:0 0 16px;font-size:13px;color:#5a4500;line-height:1.6;}
+  .photo-alert strong{color:#3a2e00;}
+
+  .tip{background:var(--accent-light);border-left:3px solid var(--accent);padding:13px 17px;margin:0 0 20px;font-size:13px;color:var(--accent);line-height:1.65;}
+  .tip a{color:var(--accent);}
+
+  .info-box{background:var(--white);border:1px solid var(--border);padding:18px 22px;margin-bottom:20px;}
+  .info-box-title{font-family:'Fraunces',serif;font-size:15px;font-weight:600;color:var(--ink);margin-bottom:10px;}
+  .info-row{display:flex;gap:10px;margin-bottom:8px;font-size:13px;align-items:flex-start;}
+  .info-label{font-weight:500;color:var(--ink);min-width:140px;flex-shrink:0;}
+  .info-val{color:var(--soft);line-height:1.5;}
+
+  .food-section{margin-top:32px;}
+  .food-section-title{font-family:'Fraunces',serif;font-size:18px;font-weight:600;color:var(--ink);margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border);}
+  .food-grid{display:grid;gap:1px;background:var(--border);border:1px solid var(--border);}
+  .food-row{background:var(--white);padding:13px 17px;display:grid;grid-template-columns:1fr auto;gap:8px;align-items:start;}
+  .food-row.sophia-pick{background:var(--accent-light);}
+  .food-name{font-size:14px;font-weight:500;color:var(--ink);margin-bottom:2px;}
+  .sophia-pick .food-name::after{content:' ★';color:var(--accent);font-size:11px;}
+  .food-type{font-size:11px;color:var(--soft);}
+  .food-note{font-size:11px;color:var(--soft);font-style:italic;margin-top:2px;}
+  .food-price{font-size:12px;font-weight:500;color:#a04030;white-space:nowrap;text-align:right;}
+  .star-note{font-size:11px;color:var(--soft);margin-top:8px;font-style:italic;}
+  .star-note span{color:var(--accent);}
+
+  .transport-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);margin-top:16px;}
+  @media(max-width:540px){.transport-grid{grid-template-columns:1fr;}}
+  .tc{background:var(--white);padding:18px 20px;}
+  .tc-title{font-family:'Fraunces',serif;font-size:15px;font-weight:600;color:var(--ink);margin-bottom:8px;}
+  .tc-body{font-size:12px;color:var(--soft);line-height:1.7;}
+  .tc-body .warn{color:#a03020;font-weight:500;}
+
+  .shop-intro{font-size:14px;color:var(--soft);line-height:1.7;margin-bottom:24px;}
+
+  .site-footer{background:var(--ink);color:white;text-align:center;padding:44px 24px;margin-top:60px;}
+  .footer-title{font-family:'Fraunces',serif;font-size:26px;font-weight:600;margin-bottom:6px;}
+  .footer-sub{font-size:13px;color:rgba(255,255,255,0.45);}
+  
+  /* ── LISTA BUTTON ─────────────────────── */
+  .list-fab{position:fixed;bottom:24px;right:24px;z-index:1000;background:var(--accent);color:white;border:none;border-radius:40px;padding:13px 20px;display:flex;align-items:center;gap:8px;font-family:'Figtree',sans-serif;font-size:13px;font-weight:500;cursor:pointer;box-shadow:0 4px 20px rgba(26,58,107,0.35);transition:all 0.2s;}
+  .list-fab:hover{background:#152e57;transform:translateY(-1px);}
+  .list-fab-count{background:white;color:var(--accent);border-radius:50%;width:20px;height:20px;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;transition:all 0.2s;}
+  .list-fab-count.hidden{display:none;}
+
+  /* ── SAVE BUTTON ON CARD ──────────────── */
+  .card-save{border:1px solid var(--border);background:var(--off);color:var(--soft);font-family:'Figtree',sans-serif;font-size:10px;font-weight:500;letter-spacing:1px;text-transform:uppercase;padding:4px 10px;cursor:pointer;transition:all 0.18s;white-space:nowrap;border-radius:2px;margin-top:10px;display:inline-flex;align-items:center;gap:5px;}
+  .card-save:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-light);}
+  .card-save.saved{background:var(--accent);color:white;border-color:var(--accent);}
+  .card-save svg{width:11px;height:11px;flex-shrink:0;}
+
+  /* ── DRAWER OVERLAY ───────────────────── */
+  .drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.45);z-index:1100;opacity:0;pointer-events:none;transition:opacity 0.25s;}
+  .drawer-overlay.open{opacity:1;pointer-events:all;}
+
+  /* ── DRAWER ───────────────────────────── */
+  .drawer{position:fixed;top:0;right:0;bottom:0;width:min(420px,100vw);background:white;z-index:1200;display:flex;flex-direction:column;transform:translateX(100%);transition:transform 0.28s cubic-bezier(0.4,0,0.2,1);box-shadow:-8px 0 32px rgba(0,0,0,0.12);}
+  .drawer.open{transform:translateX(0);}
+
+  .drawer-head{background:var(--accent);padding:20px 22px 18px;display:flex;justify-content:space-between;align-items:center;flex-shrink:0;}
+  .drawer-head-title{font-family:'Fraunces',serif;font-size:20px;font-weight:600;color:white;}
+  .drawer-head-sub{font-size:11px;color:rgba(255,255,255,0.55);margin-top:2px;}
+  .drawer-close{background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.25);color:white;width:32px;height:32px;border-radius:50%;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+  .drawer-close:hover{background:rgba(255,255,255,0.25);}
+
+  .drawer-body{flex:1;overflow-y:auto;padding:16px 18px;}
+
+  .drawer-empty{text-align:center;padding:60px 20px;color:var(--soft);}
+  .drawer-empty-icon{font-size:40px;margin-bottom:12px;opacity:0.3;}
+  .drawer-empty-text{font-size:14px;font-family:'Fraunces',serif;font-style:italic;}
+  .drawer-empty-sub{font-size:12px;margin-top:6px;color:var(--border);}
+
+  /* ── LIST ITEM ────────────────────────── */
+  .list-item{background:var(--off);border:1px solid var(--border);border-radius:4px;margin-bottom:8px;transition:border-color 0.15s;cursor:grab;}
+  .list-item:active{cursor:grabbing;}
+  .list-item.dragging{opacity:0.5;border-color:var(--accent);}
+  .list-item.drag-over{border-color:var(--accent);border-style:dashed;}
+  .li-top{display:flex;align-items:flex-start;gap:10px;padding:12px 14px 10px;}
+  .li-drag{color:var(--border);font-size:14px;line-height:1;padding-top:2px;flex-shrink:0;user-select:none;}
+  .li-check{width:18px;height:18px;border:2px solid var(--border);border-radius:3px;flex-shrink:0;margin-top:2px;cursor:pointer;transition:all 0.15s;display:flex;align-items:center;justify-content:center;}
+  .li-check.checked{background:var(--accent);border-color:var(--accent);}
+  .li-check.checked::after{content:'✓';color:white;font-size:10px;font-weight:700;}
+  .li-info{flex:1;min-width:0;}
+  .li-name{font-size:14px;font-weight:500;color:var(--ink);line-height:1.3;}
+  .li-name.done{text-decoration:line-through;color:var(--soft);}
+  .li-sub{font-size:11px;color:var(--soft);margin-top:2px;}
+  .li-region{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--accent);margin-top:3px;font-weight:500;}
+  .li-del{background:none;border:none;color:var(--border);font-size:18px;cursor:pointer;padding:0 2px;flex-shrink:0;transition:color 0.15s;line-height:1;}
+  .li-del:hover{color:#a03020;}
+  .li-note-row{padding:0 14px 10px 44px;}
+  .li-note{width:100%;border:1px solid var(--border);border-radius:2px;padding:6px 8px;font-family:'Figtree',sans-serif;font-size:12px;color:var(--ink);background:white;resize:none;min-height:32px;transition:border-color 0.15s;}
+  .li-note:focus{outline:none;border-color:var(--accent);}
+  .li-note::placeholder{color:var(--border);}
+  .li-note-btn{background:none;border:none;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--soft);cursor:pointer;padding:0 14px 8px 44px;display:block;font-family:'Figtree',sans-serif;}
+  .li-note-btn:hover{color:var(--accent);}
+
+  /* ── DRAWER FOOTER ────────────────────── */
+  .drawer-foot{padding:14px 18px;border-top:1px solid var(--border);display:flex;gap:8px;flex-shrink:0;background:white;}
+  .foot-btn{flex:1;padding:10px 12px;border:1px solid var(--border);background:var(--off);color:var(--soft);font-family:'Figtree',sans-serif;font-size:11px;font-weight:500;letter-spacing:1px;text-transform:uppercase;cursor:pointer;border-radius:2px;transition:all 0.15s;}
+  .foot-btn:hover{border-color:var(--accent);color:var(--accent);}
+  .foot-btn.primary{background:var(--accent);color:white;border-color:var(--accent);}
+  .foot-btn.primary:hover{background:#152e57;}
+
+  /* ── DONE SECTION ─────────────────────── */
+  .done-section{margin-top:16px;}
+  .done-toggle{background:none;border:none;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--soft);cursor:pointer;font-family:'Figtree',sans-serif;font-weight:500;padding:6px 0;display:flex;align-items:center;gap:6px;width:100%;}
+  .done-toggle:hover{color:var(--accent);}
+  .done-list{margin-top:8px;}
+  .done-list .list-item{opacity:0.55;}
+
+  /* ── TOAST ────────────────────────────── */
+  .toast{position:fixed;bottom:90px;right:24px;z-index:2000;background:var(--ink);color:white;padding:10px 16px;font-size:12px;font-family:'Figtree',sans-serif;border-radius:4px;opacity:0;pointer-events:none;transition:all 0.3s;transform:translateY(8px);}
+  .toast.show{opacity:1;transform:translateY(0);}
+
+  @media(max-width:480px){
+    .drawer{width:100vw;}
+    .list-fab{bottom:16px;right:16px;}
+  }
+
+</style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="h-kicker">Roteiro de viagem · Abril 2026</div>
+    <div class="h-title">Boston</div>
+    <div class="h-sub">Formatura da Sophia</div>
+    <div class="h-tag">Família Guerra &nbsp;·&nbsp; Waltham, Massachusetts</div>
+    <br>
+    <a href="https://maps.app.goo.gl/TEyd6yNG1xC7YrYg8" target="_blank" class="h-maps-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      100+ lugares favoritos no Google Maps
+    </a>
+  </header>
+<nav class="site-nav"><button class="nav-btn active" data-panel="before" onclick="showPanel('before')">Antes de Chegar</button><button class="nav-btn" data-panel="boston-center" onclick="showPanel('boston-center')">Centro de Boston</button><button class="nav-btn" data-panel="north-end" onclick="showPanel('north-end')">North End</button><button class="nav-btn" data-panel="back-bay" onclick="showPanel('back-bay')">Back Bay</button><button class="nav-btn" data-panel="cambridge" onclick="showPanel('cambridge')">Cambridge</button><button class="nav-btn" data-panel="outros" onclick="showPanel('outros')">Outros Bairros</button><button class="nav-btn" data-panel="grad" onclick="showPanel('grad')">Dia da Formatura</button><button class="nav-btn" data-panel="food" onclick="showPanel('food')">Restaurantes</button><button class="nav-btn" data-panel="shops" onclick="showPanel('shops')">Compras</button><button class="nav-btn" data-panel="transport" onclick="showPanel('transport')">Como Se Locomover</button></nav>
+<main class="main">
+
+
+  <div class="panel active" id="panel-before">
+    <div class="panel-kicker">Preparação</div>
+    <div class="panel-title">Antes de Chegar</div>
+    <div class="panel-subtitle">tudo o que você precisa saber antes de embarcar</div>
+    <div style="background:#1a3a6b;border-radius:4px;color:white;padding:24px 28px;margin-bottom:28px;">
+      <div style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:10px;font-family:'Figtree',sans-serif;font-weight:500;">Uma mensagem da Sophia</div>
+      <p style="font-family:'Fraunces',serif;font-style:italic;font-size:clamp(14px,2.5vw,17px);color:rgba(255,255,255,0.92);line-height:1.8;max-width:560px;">Queria agradecer de coração a todos que vieram me prestigiar. Ter vocês aqui significa muito pra mim. Amo muito vocês e estou muito feliz de poder dividir um pouco da minha vida aqui em Boston com pessoas tão importantes na minha vida.</p>
+      <div style="margin-top:12px;font-size:13px;color:rgba(255,255,255,0.45);font-family:'Figtree',sans-serif;">Com amor, Sophia ♡</div>
+    </div>
+
+
+
+    <div class="before-intro">
+      <div class="before-intro-title">Apps para baixar antes de sair</div>
+      <div class="app-list">
+        <div class="app-row"><div class="app-chip">ParkBoston</div><div class="app-text">App oficial de estacionamento da cidade de Boston. Funciona em todos os parquímetros e garagens do centro.</div></div>
+        <div class="app-row"><div class="app-chip">PayByPhone</div><div class="app-text">Funciona em Cambridge, Waltham e no resto da região. Baixe os dois — cada cidade usa o seu.</div></div>
+        <div class="app-row"><div class="app-chip">Uber / Lyft</div><div class="app-text">De Waltham até o centro custa US$ 25 a 40. Para grupos grandes, peça Uber XL.</div></div>
+        <div class="app-row"><div class="app-chip">MBTA mTicket</div><div class="app-text">Para usar o metrô. A linha vermelha (Red Line) leva direto até Harvard.</div></div>
+        <div class="app-row"><div class="app-chip">Google Maps</div><div class="app-text"><a href="https://maps.app.goo.gl/TEyd6yNG1xC7YrYg8" target="_blank">Acesse aqui a lista com mais de 100 lugares favoritos</a> em Boston, Cambridge e Waltham.</div></div>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div class="col-block">
+        <div class="col-title">O que trazer para usar</div>
+        <div class="col-item">Casaco médio ou jaqueta</div>
+        <div class="col-item">Blusas para usar em camadas</div>
+        <div class="col-item">Calçado confortável para caminhar</div>
+        <div class="col-item">Guarda-chuva ou capa de chuva</div>
+        <div class="col-item">Um look mais arrumado para a formatura (dia 16)</div>
+        <div class="col-item">Calçado fechado — pode molhar</div>
+      </div>
+      <div class="col-block">
+        <div class="col-title">Clima e o que esperar</div>
+        <div class="col-item">Entre 8 e 16 graus em abril</div>
+        <div class="col-item col-warn">Pode chover bastante — <a href="https://weather.com/weather/tenday/l/Waltham+MA+USMA0554:1:US" target="_blank" class="col-link">veja a previsão do tempo aqui</a></div>
+        <div class="col-item col-warn">Estacionamento: US$ 40 ou mais por dia no centro</div>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="panel" id="panel-boston-center">
+  <div class="panel-kicker">Região</div>
+  <div class="panel-title">Centro Histórico de Boston</div>
+  <div class="panel-subtitle">o coração da cidade — tudo a pé daqui</div>
+  <div class="tip">Estacione no Boston Common Garage e explore tudo a pé. Do Common você alcança: Freedom Trail, Beacon Hill, North End, Faneuil Hall e Back Bay em 2 km.</div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Boston Common e Public Garden</div><div class="region-dist">25 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Boston Common e Public Garden</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">O parque público mais antigo dos EUA</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Em abril as flores ficam lindas. O lago tem os famosos Swan Boats — barquinhos de cisne (US$ 5 adultos, US$ 3 crianças, meados de abril a setembro). Perfeito para começar o dia antes de seguir para o Freedom Trail.</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Freedom Trail</div><div class="region-dist">25 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Freedom Trail</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Centro histórico → North End — 4 km, 2 a 3 horas</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Uma linha vermelha de tijolos no chão que conecta os 16 pontos históricos mais importantes de Boston. É só seguir a linha! Começa no Boston Common. Tem app gratuito. Guias fantasiados disponíveis por US$ 15 por pessoa — muito divertido.</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Faneuil Hall e Quincy Market</div><div class="region-dist">25 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Faneuil Hall e Quincy Market</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Mercado histórico com artistas de rua</div>
+    <div class="card-tags"><span class="tag t-free">Entrada gratuita</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Artistas de rua o dia todo — mágicos, músicos, acrobatas. O Quincy Market ao lado tem dezenas de balcões de comida. Ótimo ponto de pausa durante o dia.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Long Wharf e Waterfront</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Orla marítima</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Vistas deslumbrantes do porto de Boston. Muito agradável para uma caminhada depois do almoço.</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Beacon Hill</div><div class="region-dist">25 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Acorn Street e Beacon Hill</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">O bairro mais fotográfico de Boston</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito</span><span class="tag t-photo">Foto mais icônica de Boston</span></div>
+    <div class="card-extra">Ruelas de paralelepípedo, casas de tijolo vermelho e lanternas de ferro. A Acorn Street é a rua mais fotografada da cidade. Enquanto estiver lá, entre na Beacon Hill Books and Café — tem uma máquina de impressão histórica única.</div>
+  </div>
+  </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-north-end">
+  <div class="panel-kicker">Região</div>
+  <div class="panel-title">North End</div>
+  <div class="panel-subtitle">o bairro italiano de Boston — ruelas charmosas e comida incrível</div>
+  <div class="tip">Fica a 10 minutos a pé do Faneuil Hall. Combine os dois no mesmo passeio.</div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Pontos para ver</div><div class="region-dist">25 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Hanover Street — North End</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">A rua principal do bairro</div>
+    <div class="card-tags"><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Caminhe pela Hanover Street e absorva a atmosfera italiana. Restaurantes, cafés e muito movimento a qualquer hora.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Christopher Columbus Park</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Jardim público na orla</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Jardim com vista para o porto de Boston. Muito tranquilo, ótimo para descansar depois de caminhar pelo bairro.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Paul Revere House</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Casa histórica no Freedom Trail</div>
+    <div class="card-tags"><span class="tag t-price">US$ 6 adultos</span></div>
+    <div class="card-extra">A casa mais antiga de Boston, construída em 1680. Faz parte do Freedom Trail. Visita rápida e muito interessante.</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Onde comer</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Mamma Maria</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">O melhor italiano do North End · North Square</div>
+    <div class="card-tags"><span class="tag t-price">US$ 50 a 80 por pessoa</span><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Restaurante elegante em uma casa histórica na North Square. Massas frescas, ingredientes sazonais e serviço impecável. Reserve com antecedência.<div class="rest-quote">"Mamma Maria é o meu favorito no North End."</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Neptune Oyster</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Frutos do mar · North End</div>
+    <div class="card-tags"><span class="tag t-price">US$ 40 a 70 por pessoa</span><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">O lobster roll quente com manteiga clarificada é considerado o melhor da cidade. Só 40 lugares, não aceita reservas — chegue antes de abrir para evitar fila.<div class="rest-quote">"Neptune Oyster é incrível. A fila vale a pena."</div></div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Mike's Pastry e Modern Pastry</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Sobremesa — Hanover Street</div>
+    <div class="card-tags"><span class="tag t-price">US$ 5 cada</span></div>
+    <div class="card-extra">As duas confeitarias rivais de cannoli de Boston. Recheiam na hora, sempre fresquinho. Experimente as duas!</div>
+  </div>
+  </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-back-bay">
+  <div class="panel-kicker">Região</div>
+  <div class="panel-title">Back Bay e South End</div>
+  <div class="panel-subtitle">o lado mais elegante e moderno de Boston</div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Pontos para ver</div><div class="region-dist">25 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Newbury Street</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">8 quarteirões de cafés, boutiques e energia boa</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito para passear</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">A rua mais animada do Back Bay. Tome um café sentado do lado de fora e observe o movimento. Conecta direto ao Boston Common.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Christian Science Plaza</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Praça arquitetônica com espelho d'água</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Uma praça com um espelho d'água enorme que poucos turistas conhecem. Perfeita para fotos simétricas. Fica a 5 minutos da Newbury Street.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Boston Public Library</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Uma das bibliotecas mais bonitas do mundo · Copley Square</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Peça para ver as luzes verdes em uma das salas de leitura. Vá para o lado de fundo para ver os leões na escadaria e o jardim secreto.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Seaport District</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">O bairro mais moderno de Boston</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito para explorar</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Arquitetura nova, restaurantes na beira da água e vistas lindas da baía. O Summer Market de abril a maio tem barracas de artesanato e comida. Seaport Sweat oferece aulas de ginástica ao ar livre gratuitas de manhã.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">View Boston — Mirante</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">52º andar do Prudential Center</div>
+    <div class="card-tags"><span class="tag t-price">US$ 30 por pessoa</span><span class="tag t-photo">Vista de 360 graus</span></div>
+    <div class="card-extra">Vista panorâmica de 360 graus de toda Boston. Tem bar no topo. Vale mais se o dia estiver aberto — se estiver nublado, a vista não compensa tanto. Reserve online.</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Onde comer</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">RUKA</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Fusão peruana e japonesa · Downtown</div>
+    <div class="card-tags"><span class="tag t-price">US$ 50 a 80 por pessoa</span><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Ambiente absolutamente deslumbrante, sashimi, ceviches e tiradito incríveis. Ótimo para compartilhar pratos. Reserve com antecedência.<div class="rest-quote">"RUKA é o meu restaurante favorito de Boston."</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Krasi</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Comida grega · Back Bay</div>
+    <div class="card-tags"><span class="tag t-price">US$ 45 a 70 por pessoa</span><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">A melhor comida grega de Boston. Mezze, frutos do mar grelhados e vinhos gregos. Ótimo para compartilhar pratos.<div class="rest-quote">"Krasi é o melhor grego da cidade."</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Extra Dirty Cocktail Club</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Drinques e pasta · Boston</div>
+    <div class="card-tags"><span class="tag t-price">US$ 40 a 60 por pessoa</span><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Bar de drinques extraordinários que serve também uma pasta excelente. Ambiente estiloso e animado.<div class="rest-quote">"Extra Dirty tem drinques incríveis e a pasta é ótima também!"</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Petit Robert Bistro</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Bistrô francês · South End</div>
+    <div class="card-tags"><span class="tag t-price">US$ 30 a 50 por pessoa</span><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Bistrô francês clássico e aconchegante. Ótima relação custo-benefício.<div class="rest-quote">"Petit Robert é muito bom!"</div></div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Saltie Girl</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Frutos do mar · Back Bay</div>
+    <div class="card-tags"><span class="tag t-price">US$ 50 a 80 por pessoa</span></div>
+    <div class="card-extra">Um dos melhores restaurantes de frutos do mar de toda a Nova Inglaterra. Seleção de ostras impressionante. Reserve com bastante antecedência.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Abe and Louie's</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Steakhouse americano · Back Bay</div>
+    <div class="card-tags"><span class="tag t-price">US$ 60 a 90 por pessoa</span></div>
+    <div class="card-extra">Steakhouse clássico americano — bife de qualidade, costeleta, batata assada. Reserve com antecedência.</div>
+  </div>
+  </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-cambridge">
+  <div class="panel-kicker">Região</div>
+  <div class="panel-title">Cambridge e Harvard</div>
+  <div class="panel-subtitle">15 minutos de Waltham — a vizinhança mais interessante da região</div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Pontos para ver</div><div class="region-dist">15 min de Waltham pela Route 2</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Harvard Yard</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">O campus mais famoso do mundo — aberto ao público</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Toque o pé da estátua de John Harvard para dar sorte! A livraria da universidade vende souvenirs originais de qualidade.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Harvard Museum of Natural History</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">A 2 min do Harvard Yard</div>
+    <div class="card-tags"><span class="tag t-price">US$ 15 adultos · US$ 10 crianças</span></div>
+    <div class="card-extra">Dinossauros, minerais e a coleção de flores de vidro feitas à mão no século XIX — únicas no mundo. Impressionante para todas as idades.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Charles River Esplanade</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Parque à beira do Rio Charles</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Caminhe pelo parque, sente no deck e olhe para a skyline de Boston. Lindo ao entardecer.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Isabella Stewart Gardner Museum</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Fenway — 25 min de Waltham</div>
+    <div class="card-tags"><span class="tag t-price">US$ 20 adultos</span><span class="tag t-photo">Foto imperdível</span></div>
+    <div class="card-extra">Uma mansão veneziana com jardim interno deslumbrante. Rembrandt, Botticelli, Vermeer e Sargent. Um dos maiores roubos de arte da história aconteceu aqui — pergunte ao segurança!</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Onde comer</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Pammy's</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Italiano contemporâneo · Cambridge</div>
+    <div class="card-tags"><span class="tag t-price">US$ 50 a 80 por pessoa</span><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Um dos restaurantes mais queridos de Cambridge. As reservas abrem 30 dias antes — coloque no calendário e reserve o quanto antes!<div class="rest-quote">"Pammy's é incrível mas quase impossível de conseguir reserva. Vale tentar com bastante antecedência."</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Giulia</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Italiano · Cambridge</div>
+    <div class="card-tags"><span class="tag t-price">US$ 40 a 65 por pessoa</span><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Massas frescas, ingredientes sazonais e serviço impecável. Reserve com antecedência.<div class="rest-quote">"Giulia é incrível. Um dos meus lugares favoritos de Boston."</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Bluestone Lane</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Brunch australiano · Harvard Square</div>
+    <div class="card-tags"><span class="tag t-price">US$ 18 a 28 por pessoa</span><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Café australiano com as melhores panquecas de Cambridge. Reserve para grupos.<div class="rest-quote">"Bluestone Lane — melhor café e melhores panquecas de Cambridge!"</div></div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Mr. Bartley's Burgers</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Hamburgeria · Harvard Square</div>
+    <div class="card-tags"><span class="tag t-price">US$ 18 a 25 por pessoa</span></div>
+    <div class="card-extra">Hamburgeria lendária de Cambridge desde 1960. Hambúrgueres gigantes, batata frita incrível. Fica a 2 minutos do Harvard Yard.</div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Sons</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Pizza com vibe europeia · Cambridge</div>
+    <div class="card-tags"><span class="tag t-price">US$ 20 a 35 por pessoa</span><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Fermentação longa, ingredientes sazonais, ambiente animado. Ótimo para grupos.<div class="rest-quote">"Sons tem aquela vibe europeia — ótima pizza!"</div></div>
+  </div>
+  </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-outros">
+  <div class="panel-kicker">Região</div>
+  <div class="panel-title">Outros Bairros</div>
+  <div class="panel-subtitle">lugares especiais que valem a viagem</div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Fenway Park</div><div class="region-dist">25 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Jogo do Red Sox — Fenway Park</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">O estádio mais histórico dos EUA</div>
+    <div class="card-tags"><span class="tag t-price">US$ 25 a 60 por ingresso</span></div>
+    <div class="card-extra">O baseball pode ser chato mas ir ao Fenway é mais sobre a atmosfera, o hot dog e a cerveja do que o esporte em si. Compre ingressos com antecedência.</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Vida Noturna e Drinques</div><div class="region-dist">Back Bay e Cambridge</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Cactus Club Café</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Bar · Back Bay</div>
+    <div class="card-tags"><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Ambiente descontraído e animado.<div class="rest-quote">"CACTUS CLUB — os drinques são incríveis!"</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Kartal</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Lounge sofisticado · Boston</div>
+    <div class="card-tags"><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">O melhor lounge de Boston. Ambiente elegante, perfeito para drinques depois do jantar.<div class="rest-quote">"Kartal é o melhor lounge da cidade!"</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Rochambeau</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Bar · Back Bay</div>
+    <div class="card-tags"><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Bar animado no Back Bay.<div class="rest-quote">"Rochambeau — ótimo para drinques!"</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Green Street</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Drinques artesanais · Central Square</div>
+    <div class="card-tags"><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Especialidade em match (chá verde japonês). Pertinho de Waltham.<div class="rest-quote">"Green Street é onde todo mundo vai para match!"</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">La Fabrica</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Para dançar · Central Square</div>
+    <div class="card-tags"><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">Noites latinas, ambiente animado. Pertinho de Waltham!<div class="rest-quote">"La Fabrica em Central Square é o melhor lugar para dançar — e fica perto de Waltham!"</div></div>
+  </div>
+    
+  <div class="card sophia-fav" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Neighbourhood Wines</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Adega · South End</div>
+    <div class="card-tags"><span class="tag t-sophia">Favorito da Sophia</span></div>
+    <div class="card-extra">A melhor adega de Boston. Spencer e Amanda selecionam vinhos excepcionais de todo o mundo.<div class="rest-quote">"Neighbourhood Wines no South End — a melhor adega de Boston!"</div></div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+  <div class="panel" id="panel-grad">
+    <div class="grad-banner">
+      <div class="grad-title">Dia 16 de Abril — Formatura da Sophia!</div>
+      <div class="grad-sub">Bentley University · Waltham, Massachusetts</div>
+    </div>
+
+    <div class="photo-alert"><strong>📸 Fotos em família — Dia 15 de Abril, às 16h30</strong><br>No dia 15, às 16h30, ficamos todos reunidos no campus da Bentley para fotos em família. Não percam!</div>
+
+    <div class="tip">Para a cerimônia: roupa formal. A cerimônia é ao ar livre no campo de futebol americano — pode fazer frio, leve uma camada a mais e considere trazer uma capa de chuva (acontece com chuva ou sol). Comece a se arrumar com bastante antecedência.</div>
+
+    <div class="info-box">
+      <div class="info-box-title">Informações da cerimônia</div>
+      <div class="info-row"><div class="info-label">Início</div><div class="info-val">9h30</div></div>
+      <div class="info-row"><div class="info-label">Chegada dos formandos</div><div class="info-val">Até as 8h00 na Arena</div></div>
+      <div class="info-row"><div class="info-label">Chegada dos convidados</div><div class="info-val">A partir das 8h00 no campo</div></div>
+      <div class="info-row"><div class="info-label">Local</div><div class="info-val">Campo de futebol americano da Bentley University (ao ar livre) — em caso de mau tempo severo, será transferida para a Arena</div></div>
+      <div class="info-row"><div class="info-label">Ingressos</div><div class="info-val">Não são necessários — convidados ilimitados</div></div>
+      <div class="info-row"><div class="info-label">Estacionamento</div><div class="info-val">No campus principal. Há serviço de ônibus gratuito de LaCava e Miller até o South Campus, das 7h às 14h</div></div>
+      <div class="info-row"><div class="info-label">Bolsas e mochilas</div><div class="info-val">Mochilas, bolsas grandes, faixas, balões e guarda-chuvas não são permitidos. Bolsas pequenas passam por revista na entrada. Em caso de chuva, haverá capas disponíveis no dia</div></div>
+      <div class="info-row"><div class="info-label">Fotos oficiais</div><div class="info-val">A universidade terá fotógrafo profissional. As fotos ficam disponíveis em <a href="https://www.gradimages.com/" target="_blank" style="color:var(--accent)">GradImages.com</a> em 5 a 7 dias após a cerimônia</div></div>
+      <div class="info-row"><div class="info-label">Transmissão ao vivo</div><div class="info-val">A cerimônia será transmitida ao vivo no site da Bentley e no canal do YouTube da universidade</div></div>
+      <div class="info-row"><div class="info-label">Recepção</div><div class="info-val">Haverá uma recepção com comes e bebes para formandos e convidados após a cerimônia</div></div>
+      <div class="info-row"><div class="info-label">Mais informações</div><div class="info-val"><a href="https://www.bentley.edu/commencement/faq" target="_blank" style="color:var(--accent)">Consulte o FAQ oficial da Bentley aqui</a></div></div>
+    </div>
+
+    <div class="region">
+      <div class="region-header">
+        <div class="region-dot"></div>
+        <div><div class="region-name">Jantar de celebração</div></div>
+        <div class="region-divider"></div>
+      </div>
+      <div class="tip">O jantar ainda será confirmado — fiquem atentos para mais informações em breve!</div>
+    </div>
+  </div>
+
+<div class="panel" id="panel-food">
+  <div class="panel-kicker">Referência</div>
+  <div class="panel-title">Restaurantes</div>
+  <div class="panel-subtitle">os melhores lugares de Boston para sentar e comer</div>
+
+  <div class="food-section">
+    <div class="food-section-title">Para sentar e aproveitar</div>
+    <div class="food-grid">
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">RUKA</div><div class="food-type">Peruano e japonês · Downtown</div><div class="food-note">Favorito absoluto, reserve</div></div>
+    <div class="food-price">US$ 50 a 80</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Giulia</div><div class="food-type">Italiano contemporâneo · Cambridge</div><div class="food-note">Reserve!</div></div>
+    <div class="food-price">US$ 40 a 65</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Pammy's</div><div class="food-type">Italiano contemporâneo · Cambridge</div><div class="food-note">Reserve 30 dias antes</div></div>
+    <div class="food-price">US$ 50 a 80</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Mamma Maria</div><div class="food-type">Italiano clássico · North End</div><div class="food-note">Romântico, reserve</div></div>
+    <div class="food-price">US$ 50 a 80</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Krasi</div><div class="food-type">Grego · Back Bay</div><div class="food-note">O melhor grego de Boston</div></div>
+    <div class="food-price">US$ 45 a 70</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Neptune Oyster</div><div class="food-type">Frutos do mar · North End</div><div class="food-note">Sem reserva, tem fila</div></div>
+    <div class="food-price">US$ 40 a 70</div>
+  </div>
+      
+  <div class="food-row">
+    <div><div class="food-name">Saltie Girl</div><div class="food-type">Frutos do mar · Back Bay</div><div class="food-note">Reserve com antecedência</div></div>
+    <div class="food-price">US$ 50 a 80</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Black Ruby</div><div class="food-type">Hambúrguer · Boston</div><div class="food-note">O melhor hambúrguer!</div></div>
+    <div class="food-price">US$ 20 a 30</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Petit Robert Bistro</div><div class="food-type">Bistrô francês</div><div class="food-note">Ótimo custo-benefício</div></div>
+    <div class="food-price">US$ 30 a 50</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Extra Dirty Cocktail Club</div><div class="food-type">Drinques e pasta</div><div class="food-note">Ambiente animado</div></div>
+    <div class="food-price">US$ 40 a 60</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Sons</div><div class="food-type">Pizza europeia · Cambridge</div><div class="food-note">Vibe europeia</div></div>
+    <div class="food-price">US$ 20 a 35</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Bluestone Lane</div><div class="food-type">Brunch · Harvard Square</div><div class="food-note">Reserve para grupos</div></div>
+    <div class="food-price">US$ 18 a 28</div>
+  </div>
+      
+  <div class="food-row">
+    <div><div class="food-name">Mr. Bartley's Burgers</div><div class="food-type">Hamburgeria · Cambridge</div><div class="food-note">Desde 1960</div></div>
+    <div class="food-price">US$ 18 a 25</div>
+  </div>
+      
+  <div class="food-row">
+    <div><div class="food-name">Legal Sea Foods</div><div class="food-type">Frutos do mar · Back Bay</div><div class="food-note">Clássico de Boston</div></div>
+    <div class="food-price">US$ 35 a 60</div>
+  </div>
+      
+  <div class="food-row">
+    <div><div class="food-name">Abe and Louie's</div><div class="food-type">Steakhouse americano · Back Bay</div><div class="food-note">Para uma ocasião especial</div></div>
+    <div class="food-price">US$ 60 a 90</div>
+  </div>
+    </div>
+    <div class="star-note"><span>★</span> Favorito da Sophia</div>
+  </div>
+
+  <div class="food-section">
+    <div class="food-section-title">Cafés e pastéis</div>
+    <div class="food-grid">
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Tatte Bakery</div><div class="food-type">Café e pastéis · Várias unidades</div><div class="food-note">O mais famoso café de Massachusetts</div></div>
+    <div class="food-price">US$ 8 a 15</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Lakin Paris Patisserie</div><div class="food-type">Patisserie francesa · Boston</div><div class="food-note">Chega cedo — esgotam rápido!</div></div>
+    <div class="food-price">US$ 5 a 12</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Daily Provisions</div><div class="food-type">Café e pastéis · Harvard Square</div><div class="food-note">Melhor cookie de Boston!</div></div>
+    <div class="food-price">US$ 8 a 18</div>
+  </div>
+      
+  <div class="food-row sophia-pick">
+    <div><div class="food-name">Café Nero</div><div class="food-type">Espresso · Várias unidades</div><div class="food-note">Melhor espresso da cidade</div></div>
+    <div class="food-price">US$ 4 a 7</div>
+  </div>
+    </div>
+    <div class="star-note"><span>★</span> Favorito da Sophia</div>
+  </div>
+</div>
+
+<div class="panel" id="panel-shops">
+  <div class="panel-kicker">Compras</div>
+  <div class="panel-title">Onde Comprar</div>
+  <div class="panel-subtitle">lembranças, roupas e achados especiais de Boston para levar para o Brasil</div>
+  <div class="shop-intro">Uma seleção dos melhores lugares para comprar presentes, roupas e lembranças. Lembre-se que viajando do Brasil não é possível trazer alimentos ou produtos perecíveis.</div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Harvard Square — Cambridge</div><div class="region-dist">15 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Livraria e loja de Harvard</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Harvard Book Store e Harvard Shop · Harvard Square</div>
+    <div class="card-tags"><span class="tag t-photo">Souvenir icônico</span></div>
+    <div class="card-extra">A loja oficial vende moletões, camisetas e produtos originais da universidade. Muito mais autêntico do que nas lojas turísticas comuns. Vale chegar cedo — fica lotada nos fins de semana.</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Beacon Hill</div><div class="region-dist">25 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Beacon Hill Books and Café</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Livraria com máquina de impressão histórica</div>
+    <div class="card-tags"><span class="tag t-free">Entrada gratuita</span><span class="tag t-photo">Experiência única</span></div>
+    <div class="card-extra">Uma livraria encantadora com uma máquina de impressão histórica única. Ótima para comprar livros e souvenirs especiais.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Lojas da Charles Street</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">A rua principal de Beacon Hill</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito para explorar</span></div>
+    <div class="card-extra">A Charles Street tem antiquários, galerias e pequenas lojas independentes. Ótimo para encontrar presentes únicos.</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Faneuil Hall e Downtown</div><div class="region-dist">25 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Faneuil Hall — Souvenirs</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Camisetas, canecas e lembranças de Boston</div>
+    <div class="card-tags"><span class="tag t-price">Budget-friendly</span></div>
+    <div class="card-extra">O melhor lugar para comprar lembranças clássicas de Boston — camisetas, bonés, canecas, imãs e mais. Muito mais barato do que comprar no aeroporto!</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Back Bay — Newbury Street</div><div class="region-dist">25 min de Waltham</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Newbury Street</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">8 quarteirões de boutiques e lojas</div>
+    <div class="card-tags"><span class="tag t-free">Gratuito para explorar</span></div>
+    <div class="card-extra">A rua mais elegante de Boston tem de tudo — marcas internacionais até boutiques independentes.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Prudential Center Shopping</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Shopping coberto no Back Bay</div>
+    <div class="card-tags"><span class="tag t-free">Entrada gratuita</span></div>
+    <div class="card-extra">Shopping grande e coberto com Wi-Fi gratuito. Boa opção para um dia de chuva. Fica próximo ao View Boston e à Newbury Street.</div>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="region">
+    <div class="region-header">
+      <div class="region-dot"></div>
+      <div><div class="region-name">Vintage e Achados Especiais</div><div class="region-dist">Boston e Cambridge</div></div>
+      <div class="region-divider"></div>
+    </div>
+    <div class="cards">
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Found Vintage</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Loja vintage · Boston</div>
+    <div class="card-tags"><span class="tag t-photo">Lembrança única</span></div>
+    <div class="card-extra">Pulseiras italianas de charm para customizar — cada pessoa adiciona os pingentes que quiser. Uma lembrança muito pessoal de Boston.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Cambridge Antique Market</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">5 andares de antiguidades · Cambridge</div>
+    <div class="card-tags"><span class="tag t-free">Entrada gratuita</span></div>
+    <div class="card-extra">5 andares de antiguidades — móveis, joias, roupas vintage e objetos de coleção. O melhor mercado de antiguidades da região.</div>
+  </div>
+    
+  <div class="card" onclick="tog(this)">
+    <div class="card-top"><div class="card-name">Diesel Café com Cabine Fotográfica</div><div class="card-toggle">+</div></div>
+    <div class="card-sub">Café retrô · Somerville</div>
+    <div class="card-tags"><span class="tag t-price">US$ 5 a cabine</span></div>
+    <div class="card-extra">Café vintage com uma cabine fotográfica analógica que revela as fotos na hora. Uma lembrança única de Boston!</div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+  <div class="panel" id="panel-transport">
+    <div class="panel-kicker">Prático</div>
+    <div class="panel-title">Como Se Locomover</div>
+    <div class="panel-subtitle">de Waltham para Boston e arredores</div>
+
+    <div class="tip">Estacionamento em Boston é muito caro — espere pagar <strong>US$ 40 ou mais por dia</strong> no centro. Nos dias de jantar, deixe o carro em Waltham e pegue Uber.</div>
+
+    <div class="transport-grid">
+      <div class="tc">
+        <div class="tc-title">De carro</div>
+        <div class="tc-body">
+          Centro de Boston: 20 a 30 min pela I-90<br>
+          Cambridge e Harvard: 15 min pela Route 2<br><br>
+          Baixe <strong>ParkBoston</strong> para Boston e <strong>PayByPhone</strong> para Cambridge e Waltham.<br><br>
+          Dica: estacione no Boston Common Garage e explore o centro inteiro a pé — Freedom Trail, Beacon Hill, North End e Back Bay ficam num raio de 2 km.
+        </div>
+      </div>
+      <div class="tc">
+        <div class="tc-title">Uber e Lyft</div>
+        <div class="tc-body">
+          Waltham até o centro: US$ 25 a 40<br>
+          Para grupos grandes: peça Uber XL<br><br>
+          A melhor opção para noites de jantar — sem preocupação com estacionamento. Mais caro nos horários de pico.
+        </div>
+      </div>
+      <div class="tc">
+        <div class="tc-title">Metrô (MBTA)</div>
+        <div class="tc-body">
+          Commuter Rail de Waltham Central até North Station: ~35 min, US$ 7<br><br>
+          Para Harvard: linha vermelha (Red Line) de Alewife<br><br>
+          App: MBTA mTicket para comprar bilhetes no celular
+        </div>
+      </div>
+      <div class="tc">
+        <div class="tc-title">Google Maps com 100+ lugares</div>
+        <div class="tc-body">
+          <a href="https://maps.app.goo.gl/TEyd6yNG1xC7YrYg8" target="_blank" style="color:inherit;text-decoration:underline;">Acesse aqui</a> a lista completa com mais de 100 lugares em Boston, Cambridge e Waltham.
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+  <footer class="site-footer">
+    <div class="footer-title">Aproveitem muito Boston!</div>
+    <div class="footer-sub">Bjs, Sophia ♡</div>
+    <p class="footer-sub" style="margin-top:14px"><a href="index.html" style="color:rgba(255,255,255,0.5);text-decoration:underline;text-underline-offset:3px">Site da Sophia</a></p>
+  </footer>
+<script>
+function showPanel(id) {
+  document.querySelectorAll('.panel').forEach(function(p) { p.style.display = 'none'; });
+  var el = document.getElementById('panel-' + id);
+  if (el) el.style.display = 'block';
+  document.querySelectorAll('.nav-btn').forEach(function(b) {
+    b.classList.toggle('active', b.dataset.panel === id);
+  });
+  window.scrollTo(0, 0);
+  setTimeout(function() { if (typeof syncSavedState === 'function') syncSavedState(); }, 50);
+}
+function tog(el) {
+  el.classList.toggle('open');
+  var btn = el.querySelector('.card-toggle');
+  if (btn) btn.textContent = el.classList.contains('open') ? '−' : '+';
+}
+window.addEventListener('load', function() { showPanel('before'); });
+</script>
+
+  <!-- FLOATING BUTTON -->
+  <button class="list-fab" onclick="openDrawer()" id="list-fab">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+    Minha lista
+    <span class="list-fab-count hidden" id="fab-count">0</span>
+  </button>
+
+  <!-- OVERLAY -->
+  <div class="drawer-overlay" id="drawer-overlay" onclick="closeDrawer()"></div>
+
+  <!-- DRAWER -->
+  <div class="drawer" id="drawer">
+    <div class="drawer-head">
+      <div>
+        <div class="drawer-head-title">Minha lista</div>
+        <div class="drawer-head-sub" id="drawer-sub">Nenhum lugar salvo ainda</div>
+      </div>
+      <button class="drawer-close" onclick="closeDrawer()">×</button>
+    </div>
+    <div class="drawer-body" id="drawer-body">
+      <div class="drawer-empty" id="drawer-empty">
+        <div class="drawer-empty-icon">♡</div>
+        <div class="drawer-empty-text">Sua lista está vazia</div>
+        <div class="drawer-empty-sub">Clique em "Salvar na lista" em qualquer lugar para adicionar aqui</div>
+      </div>
+      <div id="list-items"></div>
+      <div class="done-section" id="done-section" style="display:none">
+        <button class="done-toggle" onclick="toggleDone()" id="done-toggle">
+          <span id="done-arrow">▸</span> Feitos (<span id="done-count">0</span>)
+        </button>
+        <div class="done-list" id="done-list" style="display:none"></div>
+      </div>
+    </div>
+    <div class="drawer-foot">
+      <button class="foot-btn" onclick="clearAll()">Limpar tudo</button>
+      <button class="foot-btn" onclick="exportList()">Copiar lista</button>
+      <button class="foot-btn primary" onclick="closeDrawer()">Fechar</button>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+  // ── STATE ─────────────────────────────────────────────────────────────────
+  let items = [];
+  let dragSrc = null;
+  let doneOpen = false;
+  const STORAGE_KEY = 'boston_list_v2';
+
+  function load() {
+    try { items = JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; } catch(e) { items = []; }
+  }
+  function save() {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(items)); } catch(e) {}
+  }
+  load();
+
+  // ── CARD SAVE BUTTONS ─────────────────────────────────────────────────────
+  function initCards() {
+    document.querySelectorAll('.card').forEach(card => {
+      const nameEl = card.querySelector('.card-name');
+      const subEl = card.querySelector('.card-sub');
+      const regionEl = card.closest('.region');
+      if (!nameEl) return;
+      const name = nameEl.textContent.trim();
+      const sub = subEl ? subEl.textContent.trim() : '';
+      const region = regionEl ? regionEl.querySelector('.region-name')?.textContent.trim() : '';
+      const panelEl = card.closest('.panel');
+      const panelTitle = panelEl ? (panelEl.querySelector('.panel-title')?.textContent.trim() || '') : '';
+
+      // check if already saved
+      const alreadySaved = items.some(i => i.name === name);
+
+      const btn = document.createElement('button');
+      btn.className = 'card-save' + (alreadySaved ? ' saved' : '');
+      btn.innerHTML = alreadySaved
+        ? '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 6L9 17l-5-5"/></svg> Salvo!'
+        : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg> Salvar na lista';
+      btn.onclick = (e) => {
+        e.stopPropagation();
+        toggleItem(name, sub, region || panelTitle, btn);
+      };
+
+      // insert after tags or at end of extra
+      const extra = card.querySelector('.card-extra');
+      if (extra) {
+        extra.appendChild(btn);
+      }
+    });
+    updateFab();
+  }
+
+  function toggleItem(name, sub, region, btn) {
+    const idx = items.findIndex(i => i.name === name);
+    if (idx >= 0) {
+      items.splice(idx, 1);
+      btn.className = 'card-save';
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg> Salvar na lista';
+      showToast('Removido da lista');
+    } else {
+      items.push({ id: Date.now(), name, sub, region, done: false, note: '' });
+      btn.className = 'card-save saved';
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 6L9 17l-5-5"/></svg> Salvo!';
+      showToast('Adicionado à lista!');
+    }
+    save();
+    renderDrawer();
+    updateFab();
+  }
+
+  // ── DRAWER ────────────────────────────────────────────────────────────────
+  function openDrawer() {
+    renderDrawer();
+    document.getElementById('drawer').classList.add('open');
+    document.getElementById('drawer-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeDrawer() {
+    document.getElementById('drawer').classList.remove('open');
+    document.getElementById('drawer-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function renderDrawer() {
+    const active = items.filter(i => !i.done);
+    const done = items.filter(i => i.done);
+    const empty = document.getElementById('drawer-empty');
+    const listEl = document.getElementById('list-items');
+    const doneSec = document.getElementById('done-section');
+    const doneList = document.getElementById('done-list');
+    const sub = document.getElementById('drawer-sub');
+
+    empty.style.display = items.length === 0 ? 'block' : 'none';
+    sub.textContent = items.length === 0 ? 'Nenhum lugar salvo ainda'
+      : items.length === 1 ? '1 lugar salvo'
+      : items.length + ' lugares salvos';
+
+    listEl.innerHTML = '';
+    active.forEach((item, i) => {
+      listEl.appendChild(makeListItem(item, false));
+    });
+
+    if (done.length > 0) {
+      doneSec.style.display = 'block';
+      document.getElementById('done-count').textContent = done.length;
+      doneList.innerHTML = '';
+      if (doneOpen) {
+        done.forEach(item => doneList.appendChild(makeListItem(item, true)));
+      }
+    } else {
+      doneSec.style.display = 'none';
+    }
+  }
+
+  function makeListItem(item, isDone) {
+    const div = document.createElement('div');
+    div.className = 'list-item';
+    div.draggable = true;
+    div.dataset.id = item.id;
+
+    const checkDiv = document.createElement('div');
+    checkDiv.className = 'li-check' + (item.done ? ' checked' : '');
+    checkDiv.onclick = () => toggleDoneItem(item.id);
+
+    div.innerHTML = `
+      <div class="li-top">
+        <div class="li-drag">⠿</div>
+        <div class="li-info">
+          <div class="li-name${item.done ? ' done' : ''}">${item.name}</div>
+          <div class="li-sub">${item.sub}</div>
+          ${item.region ? `<div class="li-region">${item.region}</div>` : ''}
+        </div>
+        <button class="li-del" onclick="removeItem(${item.id})">×</button>
+      </div>
+    `;
+
+    div.querySelector('.li-top').insertBefore(checkDiv, div.querySelector('.li-info'));
+
+    // note area
+    const noteBtn = document.createElement('button');
+    noteBtn.className = 'li-note-btn';
+    noteBtn.textContent = item.note ? 'Ver nota' : '+ Adicionar nota';
+    const noteRow = document.createElement('div');
+    noteRow.className = 'li-note-row';
+    noteRow.style.display = item.note ? 'block' : 'none';
+    const textarea = document.createElement('textarea');
+    textarea.className = 'li-note';
+    textarea.placeholder = 'Adicione uma nota aqui...';
+    textarea.value = item.note || '';
+    textarea.rows = 2;
+    textarea.oninput = () => {
+      const it = items.find(x => x.id === item.id);
+      if (it) { it.note = textarea.value; save(); }
+    };
+    noteRow.appendChild(textarea);
+    noteBtn.onclick = () => {
+      const open = noteRow.style.display === 'none';
+      noteRow.style.display = open ? 'block' : 'none';
+      noteBtn.textContent = open ? (textarea.value ? 'Ver nota' : '− Fechar nota') : '+ Adicionar nota';
+      if (open) textarea.focus();
+    };
+    div.appendChild(noteRow);
+    div.appendChild(noteBtn);
+
+    // drag events
+    div.addEventListener('dragstart', e => {
+      dragSrc = item.id;
+      setTimeout(() => div.classList.add('dragging'), 0);
+      e.dataTransfer.effectAllowed = 'move';
+    });
+    div.addEventListener('dragend', () => div.classList.remove('dragging'));
+    div.addEventListener('dragover', e => {
+      e.preventDefault();
+      div.classList.add('drag-over');
+    });
+    div.addEventListener('dragleave', () => div.classList.remove('drag-over'));
+    div.addEventListener('drop', e => {
+      e.preventDefault();
+      div.classList.remove('drag-over');
+      if (dragSrc && dragSrc !== item.id) {
+        const srcIdx = items.findIndex(x => x.id === dragSrc);
+        const tgtIdx = items.findIndex(x => x.id === item.id);
+        if (srcIdx >= 0 && tgtIdx >= 0) {
+          const [moved] = items.splice(srcIdx, 1);
+          items.splice(tgtIdx, 0, moved);
+          save();
+          renderDrawer();
+        }
+      }
+    });
+
+    return div;
+  }
+
+  function toggleDoneItem(id) {
+    const item = items.find(x => x.id === id);
+    if (item) {
+      item.done = !item.done;
+      save();
+      renderDrawer();
+      updateFab();
+    }
+  }
+
+  function removeItem(id) {
+    const item = items.find(x => x.id === id);
+    if (item) {
+      // unmark saved button if visible
+      document.querySelectorAll('.card').forEach(card => {
+        const nameEl = card.querySelector('.card-name');
+        if (nameEl && nameEl.textContent.trim() === item.name) {
+          const btn = card.querySelector('.card-save');
+          if (btn) {
+            btn.className = 'card-save';
+            btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg> Salvar na lista';
+          }
+        }
+      });
+    }
+    items = items.filter(x => x.id !== id);
+    save();
+    renderDrawer();
+    updateFab();
+  }
+
+  function clearAll() {
+    if (items.length === 0) return;
+    if (!confirm('Tem certeza que quer limpar toda a lista?')) return;
+    items = [];
+    save();
+    // reset all buttons
+    document.querySelectorAll('.card-save').forEach(btn => {
+      btn.className = 'card-save';
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg> Salvar na lista';
+    });
+    renderDrawer();
+    updateFab();
+  }
+
+  function toggleDone() {
+    doneOpen = !doneOpen;
+    document.getElementById('done-arrow').textContent = doneOpen ? '▾' : '▸';
+    document.getElementById('done-list').style.display = doneOpen ? 'block' : 'none';
+    renderDrawer();
+  }
+
+  function exportList() {
+    if (items.length === 0) { showToast('Lista vazia!'); return; }
+    const active = items.filter(i => !i.done);
+    const done = items.filter(i => i.done);
+    let text = '📍 Minha lista de Boston\n\n';
+    if (active.length) {
+      text += active.map(i => {
+        let line = '☐ ' + i.name;
+        if (i.sub) line += ' — ' + i.sub;
+        if (i.region) line += ' (' + i.region + ')';
+        if (i.note) line += '\n    Nota: ' + i.note;
+        return line;
+      }).join('\n');
+    }
+    if (done.length) {
+      text += '\n\n✅ Feitos:\n';
+      text += done.map(i => '✓ ' + i.name).join('\n');
+    }
+    navigator.clipboard.writeText(text).then(() => showToast('Lista copiada!')).catch(() => {
+      prompt('Copie sua lista:', text);
+    });
+  }
+
+  function updateFab() {
+    const active = items.filter(i => !i.done).length;
+    const count = document.getElementById('fab-count');
+    count.textContent = active;
+    count.classList.toggle('hidden', active === 0);
+  }
+
+  function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(window._toastT);
+    window._toastT = setTimeout(() => t.classList.remove('show'), 2000);
+  }
+
+  // ── INIT ─────────────────────────────────────────────────────────────────
+  // Re-init cards when panel changes (cards may be in panels not yet visible)
+  // Card init is handled by DOMContentLoaded and direct setPanel calls below
+
+  function syncSavedState() {
+    document.querySelectorAll('.card').forEach(card => {
+      const nameEl = card.querySelector('.card-name');
+      if (!nameEl) return;
+      const name = nameEl.textContent.trim();
+      const saved = items.some(i => i.name === name);
+      const btn = card.querySelector('.card-save');
+      if (!btn) return;
+      if (saved && !btn.classList.contains('saved')) {
+        btn.className = 'card-save saved';
+        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 6L9 17l-5-5"/></svg> Salvo!';
+      } else if (!saved && btn.classList.contains('saved')) {
+        btn.className = 'card-save';
+        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg> Salvar na lista';
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    initCards();
+    window._cardsInited = true;
+    updateFab();
+  });
+  </script>
+
+</body>
+</html>
