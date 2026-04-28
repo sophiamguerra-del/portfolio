@@ -13,6 +13,34 @@
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
   </script>
   <script defer src="/_vercel/insights/script.js"></script>
+  <script>
+    (function (m, a, z, e) {
+      var s, t, u, v;
+      try {
+        t = m.sessionStorage.getItem('maze-us');
+      } catch (err) {}
+
+      if (!t) {
+        t = new Date().getTime();
+        try {
+          m.sessionStorage.setItem('maze-us', t);
+        } catch (err) {}
+      }
+
+      u = document.currentScript || (function () {
+        var w = document.getElementsByTagName('script');
+        return w[w.length - 1];
+      })();
+      v = u && u.nonce;
+
+      s = a.createElement('script');
+      s.src = z + '?apiKey=' + e;
+      s.async = true;
+      if (v) s.setAttribute('nonce', v);
+      a.getElementsByTagName('head')[0].appendChild(s);
+      m.mazeUniversalSnippetApiKey = e;
+    })(window, document, 'https://snippet.maze.co/maze-universal-loader.js', 'f92005bf-1a2d-43da-aad6-96733121a6b9');
+  </script>
 </head>
 <body class="home-page">
   <!-- Intro sequence: text → logo on pink → minimizes into banner -->
@@ -67,7 +95,6 @@
     <section class="home-summaries" aria-labelledby="home-summaries-heading">
       <div class="home-summaries-inner">
         <h2 id="home-summaries-heading" class="home-summaries-title">Featured work</h2>
-        <p class="home-summaries-intro">Short summaries of my academic projects – enough to get the picture quickly. Full case studies are one click away if you want to go deeper.</p>
         <div class="home-summaries-grid">
           <article class="home-summary-card">
             <a href="ai-learning-research-summary.html" class="home-summary-link">

@@ -3372,10 +3372,6 @@ a {
   scroll-margin-top: 130px;
 }
 
-.case-study-section--context {
-  /* Beginning: no extra bg */
-}
-
 .case-study-section--role {
   background: var(--bg-subtle);
   margin-left: calc(-1 * var(--space-xl));
@@ -4068,6 +4064,18 @@ a {
   background: var(--accent-soft);
   color: var(--accent-hover);
   border-color: var(--accent-hover);
+}
+
+.case-study-cta {
+  border-top: 1px solid currentColor;
+  opacity: 0.75;
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+.case-study-cta a {
+  text-decoration: underline;
 }
 
 .case-study-paper-section {
